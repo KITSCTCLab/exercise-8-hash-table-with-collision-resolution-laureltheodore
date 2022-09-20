@@ -2,10 +2,10 @@ import re
 
 def display_hash(hashtable) -> None:
 	for i in range(len(hashtable)):
-		print(i, end=" ")
+		print(i, end = " ")
 		for j in hashtable[i]:
-			print("-->", end=" ")
-			print(j,end=" ")
+			print("-->", end = " ")
+			print(j,end = " ")
 			print()
 		
 
