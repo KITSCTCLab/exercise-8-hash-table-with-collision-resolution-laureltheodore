@@ -2,13 +2,6 @@ import re
 
 def display_hash(hashtable) -> None:
 	# Write your code here
-	return self.table[self.h(key)].find(key)
-
-def Hashing(keyvalue) -> int:
-	return keyvalue % len(HashTable)
-
-def insert(Hashtable, keyvalue, value) -> None:
-	# Write your code here
 	if self.find(key):            
             return None
         if self.num_keys == self.max_size:
@@ -16,7 +9,12 @@ def insert(Hashtable, keyvalue, value) -> None:
         self.num_keys += 1
 	return self.table[self.h(key)].insert(key,value)
 
+def Hashing(keyvalue) -> int:
+	return keyvalue % len(HashTable)
 
+def insert(Hashtable, keyvalue, value) -> None:
+	# Write your code here
+	return self.table[self.h(key)].find(key)
 
 # Do not edit the following code
 hash_table_size = int(input())
