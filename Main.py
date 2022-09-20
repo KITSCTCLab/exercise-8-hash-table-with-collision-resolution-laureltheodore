@@ -14,7 +14,7 @@ def Hashing(keyvalue) -> int:
 
 def insert(Hashtable, keyvalue, value) -> None:
 	# Write your code here
-	return self.table[self.h(key)].find(key)
+	return self.table[self.h(key)].insert(key)
 
 # Do not edit the following code
 hash_table_size = int(input())
