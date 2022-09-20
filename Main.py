@@ -13,6 +13,7 @@ def insert(Hashtable, keyvalue, value) -> None:
         if self.num_keys == self.max_size:
             self.expand()
         self.num_keys += 1
+	return self.table[self.h(key)].insert(key,value)
         return self.table[self.h(key)].insert(key, value)
 
 
