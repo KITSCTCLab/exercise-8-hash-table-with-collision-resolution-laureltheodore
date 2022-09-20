@@ -9,7 +9,7 @@ def Hashing(keyvalue) -> int:
 
 def insert(Hashtable, keyvalue, value) -> None:
 	# Write your code here
-	if self.find(key):
+	if self.find(key):            
             return None
         if self.num_keys == self.max_size:
             self.expand()
