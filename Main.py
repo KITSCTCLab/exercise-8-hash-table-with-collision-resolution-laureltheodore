@@ -2,6 +2,7 @@ import re
 
 def display_hash(hashtable) -> None:
 	# Write your code here
+	return self.table[self.h(key)].find(key)
 
 def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
@@ -14,7 +15,6 @@ def insert(Hashtable, keyvalue, value) -> None:
             self.expand()
         self.num_keys += 1
 	return self.table[self.h(key)].insert(key,value)
-        return self.table[self.h(key)].insert(key, value)
 
 
 
