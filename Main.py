@@ -8,6 +8,16 @@ def Hashing(keyvalue) -> int:
 
 def insert(Hashtable, keyvalue, value) -> None:
 	# Write your code here
+	if self.find(key):
+            return None
+
+        if self.num_keys == self.max_size:
+            self.expand()
+
+        self.num_keys += 1
+
+        return self.table[self.h(key)].insert(key, value)
+
 
 
 # Do not edit the following code
